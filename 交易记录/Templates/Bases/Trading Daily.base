@@ -1,8 +1,8 @@
 filters:
   and:
-    - 'file.folder == "交易记录"'
-    - 'file.tags.contains("daily")'
-    - 'file.tags.contains("trading")'
+    - file.folder == "交易记录"
+    - file.tags.contains("daily")
+    - file.tags.contains("trading")
 properties:
   file.name:
     displayName: Day
@@ -15,8 +15,8 @@ views:
     name: Daily records
     order:
       - file.name
-      - note.date
+      - date
       - file.mtime
     sort:
-      - property: note.date
+      - property: date
         direction: DESC
