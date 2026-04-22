@@ -17,7 +17,7 @@ Adopt a "trading daily" note format:
 
 **Template Strategy**
 
-Create a reusable template at `交易记录/Templates/Trading Daily Template.md` and configure the Obsidian Templates plugin to use the `Templates` folder. The template will keep the note structure stable and provide an empty trade table for future entries.
+Create a reusable template at `交易记录/Templates/Trading Daily Template.md`, plus a Base view at `交易记录/Templates/Bases/Trading Daily.base`, and configure the Obsidian Templates plugin to use the `Templates` folder. The template will keep the note structure stable, provide an aggregate view of all daily trading notes, and retain an empty trade table for future entries.
 
 **Migration Scope**
 
@@ -34,6 +34,6 @@ Migrate the existing files `20260422.md` through `20260429.md` to the new struct
 Because this change is Markdown and Obsidian configuration, verification is structural rather than test-driven:
 
 - Confirm template files and config files exist
-- Confirm migrated notes have frontmatter, `## Notes`, and `## Trades`
+- Confirm migrated notes have frontmatter, `## Notes`, `## Daily Records`, and `## Trades`
 - Confirm `20260422.md` retained its data
 - Confirm `20260423.md` through `20260429.md` remain empty templates

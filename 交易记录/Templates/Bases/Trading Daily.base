@@ -1,0 +1,22 @@
+filters:
+  and:
+    - 'file.folder == "交易记录"'
+    - 'file.tags.contains("daily")'
+    - 'file.tags.contains("trading")'
+properties:
+  file.name:
+    displayName: Day
+  note.date:
+    displayName: Date
+  file.mtime:
+    displayName: Updated
+views:
+  - type: table
+    name: Daily records
+    order:
+      - file.name
+      - note.date
+      - file.mtime
+    sort:
+      - property: note.date
+        direction: DESC

@@ -7,6 +7,10 @@ date: {{date}}
 
 ## Notes
 
+## Daily Records
+
+![[Trading Daily.base]]
+
 ## Trades
 
 | 字段 | 交易1 | 交易2 | 交易3 |

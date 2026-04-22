@@ -4,7 +4,7 @@
 
 **Goal:** Convert the trading journal notes to a daily-note style template while preserving the existing trade-entry table.
 
-**Architecture:** Keep the vault's date-per-file workflow, but wrap each note in a stable daily-note structure with frontmatter and headings. Store the reusable empty note in `交易记录/Templates/Trading Daily Template.md` and migrate the existing trading notes to match it.
+**Architecture:** Keep the vault's date-per-file workflow, but wrap each note in a stable daily-note structure with frontmatter and headings. Store the reusable empty note in `交易记录/Templates/Trading Daily Template.md`, add a `Trading Daily.base` aggregate view, and migrate the existing trading notes to match it.
 
 **Tech Stack:** Obsidian Markdown, Obsidian core Templates plugin, JSON config files
 
@@ -32,6 +32,7 @@ Document the exact files to create and update so the migration is reproducible.
 
 **Files:**
 - Create: `交易记录/Templates/Trading Daily Template.md`
+- Create: `交易记录/Templates/Bases/Trading Daily.base`
 - Create: `交易记录/.obsidian/templates.json`
 
 **Step 1: Create the reusable trading daily template**
@@ -39,10 +40,15 @@ Document the exact files to create and update so the migration is reproducible.
 Include:
 - frontmatter with `daily` and `trading` tags
 - `## Notes`
+- `## Daily Records`
 - `## Trades`
 - empty trade table matching the current schema
 
-**Step 2: Configure the Templates plugin**
+**Step 2: Create the daily aggregate Base**
+
+Add a Base view that collects all daily trading notes in `交易记录/` and sorts them by date.
+
+**Step 3: Configure the Templates plugin**
 
 Set the templates folder to `Templates` so the vault can insert the new template directly.
 
@@ -63,6 +69,7 @@ Set the templates folder to `Templates` so the vault can insert the new template
 For every file:
 - add frontmatter
 - add `## Notes`
+- add `## Daily Records`
 - add `## Trades`
 
 **Step 2: Preserve the populated table in `20260422.md`**
@@ -77,6 +84,7 @@ Ensure `20260423.md` through `20260429.md` contain the same empty table shape as
 
 **Files:**
 - Verify: `交易记录/Templates/Trading Daily Template.md`
+- Verify: `交易记录/Templates/Bases/Trading Daily.base`
 - Verify: `交易记录/.obsidian/templates.json`
 - Verify: `交易记录/20260422.md`
 - Verify: `交易记录/20260423.md`
@@ -91,6 +99,7 @@ Confirm they were written to the intended locations.
 Confirm:
 - frontmatter exists
 - headings exist
+- Base embed exists
 - trade data remains in `20260422.md`
 - empty tables remain in the new blank days
 
