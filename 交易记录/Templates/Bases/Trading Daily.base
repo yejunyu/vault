@@ -1,8 +1,9 @@
 filters:
   and:
-    - file.folder == "交易记录"
     - file.tags.contains("daily")
     - file.tags.contains("trading")
+    - '!file.folder.contains("Templates")'
+    - file.ext == "md"
 properties:
   file.name:
     displayName: Day
