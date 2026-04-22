@@ -2,7 +2,7 @@
 tags:
   - daily
   - trading
-date: 2026-04-28
+date: {{date}}
 ---
 
 ## Notes
