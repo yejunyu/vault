@@ -16,8 +16,8 @@ views:
     name: Daily records
     order:
       - file.name
-      - date
+      - note.date
       - file.mtime
     sort:
-      - property: date
+      - property: note.date
         direction: DESC
