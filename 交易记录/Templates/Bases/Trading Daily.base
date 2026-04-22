@@ -19,5 +19,7 @@ views:
       - date
       - file.mtime
     sort:
+      - property: file.mtime
+        direction: ASC
       - property: date
         direction: DESC
