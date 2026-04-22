@@ -180,13 +180,23 @@
               "icon": "lucide-list",
               "title": "20260422 的大纲"
             }
+          },
+          {
+            "id": "511145e2224fcd0f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,13 +206,21 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "f55637d33e279642",
   "lastOpenFiles": [
-    "欢迎.md",
+    "20260429.md",
+    "20260425.md",
+    "20260424.md",
+    "20260423.md",
     "20260422.md",
+    "20260428.md",
+    "20260427.md",
+    "20260426.md",
+    "欢迎.md",
     "创建链接.md",
     "未命名.base"
   ]
