@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyRecords.md",
+                "file": "20260422.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DailyRecords"
+              "title": "20260422"
             }
           }
         ]
@@ -196,15 +196,15 @@
   },
   "active": "02e80a6612f412fd",
   "lastOpenFiles": [
-    "Templates/Bases/Trading Daily.base",
-    "DailyRecords.md",
+    "20260423.md",
     "20260422.md",
+    "DailyRecords.md",
+    "Templates/Bases/Trading Daily.base",
     "Templates/Trading Daily Template.md",
     "20260429.md",
     "20260425.md",
     "20260426.md",
     "20260424.md",
-    "20260423.md",
     "Templates/Bases",
     "20260428.md",
     "20260427.md",
