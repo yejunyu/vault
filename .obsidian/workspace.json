@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "交易记录/20260422.md",
+                "file": "出海/start.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260422"
+              "title": "start"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "交易记录/20260422.md",
+                "file": "出海/start.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "20260422 的反向链接列表"
+              "title": "start 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "交易记录/20260422.md",
+                "file": "出海/start.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "20260422 的出链列表"
+              "title": "start 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "交易记录/20260422.md",
+                "file": "出海/start.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "20260422 的大纲"
+              "title": "start 的大纲"
             }
           },
           {
@@ -181,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "交易记录/20260422.md"
+                "file": "出海/start.md"
               },
               "icon": "lucide-info",
-              "title": "20260422的笔记属性"
+              "title": "start的笔记属性"
             }
           }
         ],
@@ -209,16 +209,17 @@
   },
   "active": "1bf2e26c3f8e613c",
   "lastOpenFiles": [
-    "出海/未命名.base",
-    "出海/商品提示词.md",
     "出海/新手也能看懂的跨境电商入门地图（2026 最新.pdf",
+    "出海/商品提示词.md",
+    "交易记录/20260423.md",
+    "交易记录/DailyRecords.md",
+    "交易记录/20260422.md",
+    "出海/未命名.base",
     "出海/start.md",
     "出海/Temu 推荐的 POD 类目.pdf",
     "出海/TEMU 开店常见问题与避坑清单（2026 最新）.pdf",
     "出海/TEMU 店铺注册全流程（2026 详细版）.pdf",
     "出海/POD（Print On Demand）介绍.pdf",
-    "出海",
-    "交易记录/20260423.md",
-    "交易记录/20260422.md"
+    "出海"
   ]
 }
